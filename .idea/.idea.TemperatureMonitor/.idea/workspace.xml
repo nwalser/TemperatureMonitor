@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea66b390-e8d8-4e0f-bb22-6ef271a7639e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemperatureMonitor.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/CommandHandler/CreateTemperatureLimitCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/CommandHandler/DeleteTemperatureLimitCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/CommandHandler/UpdateTemperatureLimitCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/EventHandler/TemperatureChangedEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/EventHandler/TemperatureLimitReachedEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/Queries/GetTemperatureLimitByIdQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Application/QueryHandler/GetTemperatureLimitByIdQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Aggregates/TemperatureLimitAggregate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Commands/CreateTemperatureLimitCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Commands/DeleteTemperatureLimitCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Commands/UpdateTemperatureLimitCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Entities/TemperatureLimitEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Events/CreatedTemperatureLimitEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Events/DeletedTemperatureLimitEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Events/TemperatureChangedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Events/TemperatureLimitReachedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nathan.Monitor.Domain/Events/UpdatedTemperatureLimitEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemperatureMonitor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemperatureMonitor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatureMonitor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureMonitor.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672843888119</updated>
       <workItem from="1672843890279" duration="493000" />
+      <workItem from="1672844597314" duration="2175000" />
     </task>
     <servers />
   </component>

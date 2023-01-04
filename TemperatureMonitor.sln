@@ -1,8 +1,58 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Libraries", "00 - Libraries", "{90146DBC-D9BD-44AF-A22D-7C5AC38059A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - Domains", "23 - Domains", "{44D2C04A-D6EE-49CB-80AA-671C9AFC22F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 - Services", "30 - Services", "{E5284CF7-C03B-4559-B1F4-455F1EFDEE8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "31 - Development Services", "31 - Development Services", "{EDCA9417-AA9F-44AE-96A3-EF8A0C7E8F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 - Testing", "60 - Testing", "{3999CAD5-68F5-47E5-BEA9-D6DC2FE5A950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90 - Solution Items", "90 - Solution Items", "{206E261A-9514-4760-B338-0405E04EDA7A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nathan.Monitor.Domain", "Nathan.Monitor.Domain\Nathan.Monitor.Domain.csproj", "{6597D3C4-EFD1-49C1-98FD-6B06B4DFD5D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitor", "Monitor", "{E0AE010E-026E-48DA-9E18-A2141F148D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nathan.Monitor.Infrastructure", "Nathan.Monitor.Infrastructure\Nathan.Monitor.Infrastructure.csproj", "{E67789FE-D604-4ECC-977E-4C7284349377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C173DC3C-DA72-4CDB-A2FD-F5540AC482E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestApi", "RestApi", "{305DEAC8-3619-4AB3-AF55-DB32EC65549F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nathan.Monitor.Application", "Nathan.Monitor.Application\Nathan.Monitor.Application.csproj", "{A5CD9B20-022A-4198-BFFC-BE8D08220E53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0AE010E-026E-48DA-9E18-A2141F148D80} = {44D2C04A-D6EE-49CB-80AA-671C9AFC22F0}
+		{C173DC3C-DA72-4CDB-A2FD-F5540AC482E5} = {E0AE010E-026E-48DA-9E18-A2141F148D80}
+		{305DEAC8-3619-4AB3-AF55-DB32EC65549F} = {E0AE010E-026E-48DA-9E18-A2141F148D80}
+		{6597D3C4-EFD1-49C1-98FD-6B06B4DFD5D4} = {C173DC3C-DA72-4CDB-A2FD-F5540AC482E5}
+		{E67789FE-D604-4ECC-977E-4C7284349377} = {C173DC3C-DA72-4CDB-A2FD-F5540AC482E5}
+		{A5CD9B20-022A-4198-BFFC-BE8D08220E53} = {C173DC3C-DA72-4CDB-A2FD-F5540AC482E5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6597D3C4-EFD1-49C1-98FD-6B06B4DFD5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6597D3C4-EFD1-49C1-98FD-6B06B4DFD5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6597D3C4-EFD1-49C1-98FD-6B06B4DFD5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6597D3C4-EFD1-49C1-98FD-6B06B4DFD5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67789FE-D604-4ECC-977E-4C7284349377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67789FE-D604-4ECC-977E-4C7284349377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67789FE-D604-4ECC-977E-4C7284349377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67789FE-D604-4ECC-977E-4C7284349377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CD9B20-022A-4198-BFFC-BE8D08220E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CD9B20-022A-4198-BFFC-BE8D08220E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CD9B20-022A-4198-BFFC-BE8D08220E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CD9B20-022A-4198-BFFC-BE8D08220E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
